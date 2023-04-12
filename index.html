@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <title>Document</title>
+</head>
+<body>
+    <header> 
+        <img src="./VéhiLoc.svg" alt="logo" id="logo">
+        <nav>    
+            <a href="#offre">nos offres</a>
+            <a href="#gamme">nos vehicule</a>
+            <a href="#contact">contact</a>
+            <a href="#">inscription / connexion</a>
+        </nav>       
+    </header>
+    <main>
+    <section id="reservation">
+        <div>
+            <img src="./poster-voiture.svg" alt="voiture" id="voiture">
+        </div>
+        <div class="formulaire">
+            <form action="get"class="reservez">
+                <h2>Reservez votre véhicule</h2>
+                <label for="ville">Choisir une ville</label><br>
+                <input type="text" id="ville"><br>
+                <label for="depart">Départ</label><br>
+                <input type="datetime-local" id="depart"><br>
+                <label for="arrivee">Arivée</label><br>
+                 <input type="datetime-local" id="arrivee"><br><br>
+                
+                <div class="icone">
+                    <label for="type">Type de vehicule:</label><br>
+                    <img type="image" id="image" alt="voiture" src="./Car.svg" >
+                    <img type="image" id="image" alt="camionette" src="./Truck.svg">
+                    <img type="image" id="image" alt="moto" src="./Dirt Bike.svg">
+                    <img type="image" id="image" alt="velo" src="./Bicycle.svg"><br>
+                    <input type="button"value="Rechercher" class="recherche">
+                </div>
+          
+            </form>
+        </div>
+    </section>
+    <br> 
+    <h2>Nos offre du moment</h2>
+    <section id="offre"><br>
+       
+        <div class="a18">
+            <img src="./photo-offre2.svg" alt="18ans">
+            <figcaption class="offre">louez dés 18 ans sans surcout</figcaption>
+        </div>
+        <div class="h24-7">
+            <img src="./photo-offre1.svg" alt="24-7">
+            <figcaption class="offre">location 24/7</figcaption>
+        </div>
+        <div class="demenage">
+            <img src="./photo-offre3.svg" alt="demenage">
+            <figcaption class="offre">Déménagez en tout sérénité</figcaption>
+        </div>
+    </section>
+    <h2>Nos Gamme de vehicule</h2>
+    <section id="gamme">
+   
+        <div class="icone">
+            <img type="image" id="image" alt="voiture" src="./Car.svg" >
+            <img type="image" id="image" alt="camionette" src="./Truck.svg">
+            <img type="image" id="image" alt="moto" src="./Dirt Bike.svg">
+            <img type="image" id="image" alt="velo" src="./Bicycle.svg"><br>
+        </div><br>
+        <section class="clio">
+            <div>
+                <img src="./renault-clio.png" alt="renault-clio"><br>
+                <figcaption><B>Renault-clio</B><br> a partir de 30€</figcaption>
+            </div>
+            <div>
+                <img src="./renault-clio.png" alt="renault-clio"><br>
+                <figcaption><B>Renault-clio</B><br> a partir de 30€</figcaption>
+            </div> 
+            <div>
+                <img src="./renault-clio.png" alt="renault-clio"><br>
+                <figcaption><B>Renault-clio</B><br> a partir de 30€</figcaption>
+            </div> 
+            <div>
+                <img src="./renault-clio.png" alt="renault-clio"><br>
+                <figcaption><B>Renault-clio</B><br> a partir de 30€</figcaption>
+            </div>     
+        </section>
+    </section>
+     <h2>Contact</h2>
+    <section id="contact">
+       
+        <div class="coordonnées">
+            <form action="get">
+                <label for="nom"> nom:</label><br>
+                <input type="text"><br>
+                <label for="prenom"> prenom:</label><br>
+                <input type="text"><br>
+                <label for="mail"> email:</label><br>
+                <input type="email">
+            </form>
+        </div>
+        <div class="message">
+        <textarea name="Votre message" id="" cols="30" rows="10">Votre message:</textarea><br>
+        <input type="button" value="envoyer" class="recherche">
+        </div>
+    
+
+
+    </section>
+</main>
+<footer>
+    <div>
+        <h3>Location de voiture</h3>
+        location sur Lille <br>
+        location sur Paris <br>
+        location sur Lyon <br>
+        location sur Marseille
+    </div>
+    <div>
+        <h3>location de camionette</h3>
+        location de fourgonette<br>
+        location de fourgon<br>
+        location de camionette<br>
+        location de camion avec haillon
+    </div>
+    <div>
+        <h3>location déménagement</h3>
+        location camion de démenagement<br>
+        location garde meuble<br>
+        Nos kit de déménagement <br>
+    </div>
+    <div>
+        <h3>qui somme nous ?</h3>
+        devenir franchisé<br>
+        nous contacter<br>
+        Conditions Générales<br>
+        Condition assurance complémentaire
+    </div>
+</footer>
+
+</body>
+</html>
